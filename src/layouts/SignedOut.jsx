@@ -7,11 +7,11 @@ export default function SignedOut(props) {
       <Menu.Item>
         <Button primary onClick={props.signIn}>
           {" "}
-          giriş yap{" "}
+          log in{" "}
         </Button>
         <Button primary style={{ marginLeft: "0.5em" }}>
           {" "}
-          kayıt ol{" "}
+          sign in{" "}
         </Button>
       </Menu.Item>
     </div>
